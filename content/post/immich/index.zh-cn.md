@@ -22,24 +22,26 @@ tags: [
 #prev: /tutorials/automated-deployments  # 上一篇博客地址
 ---
 
+# 简介
+不想再使用云服务商提供的备份服务了，想自己本地搭建一个？
+
+那 immich 将是个好的选择，immich 是一个直接从 iPhone、Android 手机上备份照片与视频的开源解决方案，通过部署在自己的电脑、NAS、服务器中，使用 App 进行备份。界面酷似 Google Photos，支持多用户、照片和相册分享、好友上传、地理位置、机器学习识别事件等功能。
+
+
 # 下载
-- `Android` [下载地址1](https://own.grassto.top:8092/immich.apk)  [下载地址2](https://github.com/immich-app/immich/releases/download/v1.77.0/app-release.apk)
+- `Android` [GitHub release](https://github.com/immich-app/immich/releases/download/v1.77.0/app-release.apk)
 
 - `iOS` 应用商店搜索 `immich` 安装即可。
 
 图标长这样，别下错了
 ![图标](ico.png)
 
-# 前言
-提供一个照片备份的工具，是我自己搭建的服务，个人自己的照片，需要分享之后其他人才能看到，不用担心图片泄露。
-
-服务使用的是开源库 [immich GitHub](https://github.com/immich-app/immich)。
 
 # 使用
 1. 下载好应用，打开后第一步需要填写服务器地址 `https://own.grassto.top:8090`
 ![填写服务器地址](step1.png)
 
-2. 点击进入下一个后，需要输入用户名密码，需要使用的可以直接来跟我要用户名密码
+2. 点击进入下一个后，需要输入用户名密码
 ![用户名密码填写](step2.png)
 
 3. 首次登录成功需要更改用户名密码
